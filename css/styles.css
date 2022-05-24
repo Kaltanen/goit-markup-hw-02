@@ -84,7 +84,13 @@ body {
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--title-color)
+    background-color: #2196F3;
+    color: var(--title-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--header-color);
 }
 
 /*-----------------ABOUT-------------*/
@@ -93,7 +99,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--header-color)
 }
@@ -102,7 +108,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color)
 }
@@ -156,7 +161,14 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: var(--title-color)
+    background-color: #F5F4FA;
+    color: var(--header-color)
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: #2196F3;
+    color: var(--title-color);
 }
 
 .projects-title{
@@ -177,13 +189,17 @@ body {
 
 /*-------------------FOOTER------------------*/
 
+.footer{
+    background-color: #2F303A;
+}
+
 .footer-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--header-color)
+    color: var(--title-color)
 }
 
 .footer-adress {
